@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class AddTwoNumber
+{
+public static void main(String [] args)
+{
+Scanner n=new Scanner(System.in);
+System.out.println("Enter First Number:");
+int a=n.nextInt();
+System.out.println("Enter second number:");
+int b=n.nextInt();
+Add(a,b);
+}
+public static void Add(int x,int y)
+{
+int Add;
+Add=x+y;
+System.out.println(+Add);
+}
+}
+
